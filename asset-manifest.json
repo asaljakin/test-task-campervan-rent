@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-task-campervan-rent/static/css/main.90eb3f8f.css",
+    "main.js": "/test-task-campervan-rent/static/js/main.96c75973.js",
+    "index.html": "/test-task-campervan-rent/index.html",
+    "main.90eb3f8f.css.map": "/test-task-campervan-rent/static/css/main.90eb3f8f.css.map",
+    "main.96c75973.js.map": "/test-task-campervan-rent/static/js/main.96c75973.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90eb3f8f.css",
+    "static/js/main.96c75973.js"
+  ]
+}
