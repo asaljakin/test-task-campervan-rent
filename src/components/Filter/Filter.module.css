@@ -1,9 +1,0 @@
-.label {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  margin: 20px 0 0;
-  font-size: small;
-  font-weight: 600;
-}
