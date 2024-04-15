@@ -1,0 +1,8 @@
+.bgImgHolder {
+  background-image: url('../../../assets/hero-img.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100vw;
+  height: 100vh;
+}

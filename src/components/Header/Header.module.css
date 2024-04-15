@@ -1,0 +1,28 @@
+.headerContainer {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding-left: 64px;
+  padding-right: 64px;
+  width: 100%;
+  height: 84px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  background-color: var(--light-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBox {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  gap: 16px;
+}
