@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux';
 import { getAllCampers } from '../../../api/mockApi';
 import sprite from '../../../assets/sprite.svg';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 export const Filters = () => {
   const dispatch = useDispatch();

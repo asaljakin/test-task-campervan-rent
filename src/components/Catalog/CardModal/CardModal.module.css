@@ -1,0 +1,129 @@
+.modalContainer {
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.infoContainer {
+  margin-bottom: 24px;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+
+.reviewsInfoBox {
+  height: 24px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.reviewsBox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.reviewsLink {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--black);
+}
+
+.locationBox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.locationText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black);
+}
+
+.cardPrice {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: var(--black);
+}
+
+.imgList {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.carImg {
+  border-radius: 10px;
+  width: 290px;
+  height: 310px;
+  object-fit: cover;
+  object-position: center;
+}
+.descriptionText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--grey);
+  margin-bottom: 44px;
+}
+
+.informList {
+  display: flex;
+  gap: 40px;
+  max-width: 216px;
+}
+
+.informItem {
+  position: relative;
+}
+
+.infoMenuBtn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--black);
+  border: none;
+  background-color: transparent;
+}
+
+.redLine {
+  position: absolute;
+  top: 36px;
+  width: 100%;
+  border: none;
+  border-top: 5px solid var(--red);
+}
+
+.horizontalLine {
+  border: none;
+  border-top: 1px solid rgba(16, 24, 40, 0.1);
+  width: 100%;
+  margin: 20px 0;
+}
+
+.informBox {
+  display: flex;
+  justify-content: space-between;
+}

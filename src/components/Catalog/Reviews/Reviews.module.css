@@ -1,0 +1,50 @@
+.reviewerItem {
+  width: 430px;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.reviewerNameBox {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 172px;
+  height: 60px;
+  margin-bottom: 16px;
+}
+
+.circleBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: var(--light-grey);
+}
+
+.firstLetterText {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: var(--red);
+}
+
+.nameText {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+
+.reviewerText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--grey);
+}
+
+.iconsWrapper {
+  display: flex;
+}

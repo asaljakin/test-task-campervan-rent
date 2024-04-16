@@ -1,0 +1,66 @@
+.featuresContainer {
+  width: 430px;
+  height: 530px;
+}
+
+.optionsList {
+  width: 430px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 8px;
+  margin-bottom: 44px;
+}
+
+.optionsItem {
+  border-radius: 100px;
+  padding: 12px 18px;
+  background: var(--light-grey);
+  display: flex;
+  gap: 8px;
+  height: 44px;
+}
+
+.optionsText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  color: var(--black);
+}
+
+.horizontalLine {
+  width: 430px;
+  border: none;
+  border-top: 1px solid rgba(16, 24, 40, 0.1);
+  margin-bottom: 14px;
+}
+
+.detailsItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.detailsTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--black);
+}
+
+.detailsName {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: var(--black);
+}
+
+.detailsValue {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: var(--black);
+}
