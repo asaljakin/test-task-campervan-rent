@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/test-task-campervan-rent/static/css/main.90eb3f8f.css",
-    "main.js": "/test-task-campervan-rent/static/js/main.96c75973.js",
+    "main.css": "/test-task-campervan-rent/static/css/main.938a7668.css",
+    "main.js": "/test-task-campervan-rent/static/js/main.4407ce53.js",
+    "static/js/680.57c556a2.chunk.js": "/test-task-campervan-rent/static/js/680.57c556a2.chunk.js",
+    "static/css/692.0157a584.chunk.css": "/test-task-campervan-rent/static/css/692.0157a584.chunk.css",
+    "static/js/692.9895448e.chunk.js": "/test-task-campervan-rent/static/js/692.9895448e.chunk.js",
+    "static/js/413.7cee5cb2.chunk.js": "/test-task-campervan-rent/static/js/413.7cee5cb2.chunk.js",
+    "static/js/307.a14fd38b.chunk.js": "/test-task-campervan-rent/static/js/307.a14fd38b.chunk.js",
+    "static/media/sprite.svg": "/test-task-campervan-rent/static/media/sprite.e378cbdb1570139a051f83a3c1f1e7a7.svg",
     "index.html": "/test-task-campervan-rent/index.html",
-    "main.90eb3f8f.css.map": "/test-task-campervan-rent/static/css/main.90eb3f8f.css.map",
-    "main.96c75973.js.map": "/test-task-campervan-rent/static/js/main.96c75973.js.map"
+    "main.938a7668.css.map": "/test-task-campervan-rent/static/css/main.938a7668.css.map",
+    "main.4407ce53.js.map": "/test-task-campervan-rent/static/js/main.4407ce53.js.map",
+    "680.57c556a2.chunk.js.map": "/test-task-campervan-rent/static/js/680.57c556a2.chunk.js.map",
+    "692.0157a584.chunk.css.map": "/test-task-campervan-rent/static/css/692.0157a584.chunk.css.map",
+    "692.9895448e.chunk.js.map": "/test-task-campervan-rent/static/js/692.9895448e.chunk.js.map",
+    "413.7cee5cb2.chunk.js.map": "/test-task-campervan-rent/static/js/413.7cee5cb2.chunk.js.map",
+    "307.a14fd38b.chunk.js.map": "/test-task-campervan-rent/static/js/307.a14fd38b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90eb3f8f.css",
-    "static/js/main.96c75973.js"
+    "static/css/main.938a7668.css",
+    "static/js/main.4407ce53.js"
   ]
 }
