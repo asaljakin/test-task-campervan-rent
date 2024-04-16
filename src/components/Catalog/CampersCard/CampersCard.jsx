@@ -56,7 +56,7 @@ export const CampersCard = ({ value }) => {
               <svg width="16px" height="16px">
                 <use xlinkHref={sprite + '#star'} />
               </svg>
-              <a className={styles.reviewsLink} href="#">
+              <a className={styles.reviewsLink} href="/reviews">
                 <p>
                   <span>{rating}</span>({reviews.length} Reviews)
                 </p>
