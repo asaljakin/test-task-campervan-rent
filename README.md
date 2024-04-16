@@ -66,8 +66,9 @@ tank, consumption, description, details, gallery, reviews (див. скрінш�
 Для наповнення колекції можна взяти
 [adverts.json](https://drive.google.com/file/d/19faXNvU-8EnG8EtmWrCZ5EG2GDH0Uw62/view?usp=sharing)
 
-![](Aspose.Words.3ea9b045-b70e-4076-9dae-6b2a347ed736.001.png)
-![Screen adverts.json](./assets/adverts.png) **2.** Зображення камперу можете
+![Screen adverts.json](./assets/adverts.png)
+
+**2.** Зображення камперу можете
 підібрати самостійно.
 
 **3.** В базі має бути від 13 оголошень з різними значеннями (на ваш розсуд).
