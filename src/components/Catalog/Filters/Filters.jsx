@@ -2,28 +2,6 @@ import { useDispatch } from 'react-redux';
 import { getAllCampers } from '../../../redux/operations';
 import { PiWind } from 'react-icons/pi';
 import sprite from '../../../assets/sprite.svg';
-import {
-  CheckboxCntnr,
-  CheckboxInput,
-  CheckboxLabel,
-  CheckboxText,
-  EquipmentFilterBox,
-  FilterItem,
-  FilterTitle,
-  Filterlist,
-  FiltersText,
-  HorizontalLine,
-  LocationForm,
-  LocationInput,
-  LocationLabel,
-  LocationSvg,
-  RadioCntnr,
-  RadioInput,
-  RadioLabel,
-  RadioText,
-  SearchBtn,
-  TypeFilterBox,
-} from './Filters.styled';
 import { useEffect, useState } from 'react';
 import styles from './Filters.module.css';
 
