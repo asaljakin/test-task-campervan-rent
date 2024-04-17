@@ -40,7 +40,7 @@ export const CampersCard = ({ value }) => {
       <img className={styles.carImg} src={gallery[0]} alt="car" />
       <div className={styles.cardInfoBox}>
         <div className={styles.titleInfoBox}>
-          <div clasname={styles.titleInfoLine}>
+          <div className={styles.titleInfoLine}>
             <h2 className={styles.cardTitle}>{name}</h2>
             <div className={styles.priceBox}>
               <p className={styles.cardPrice}>€{price}.00</p>
@@ -62,54 +62,54 @@ export const CampersCard = ({ value }) => {
                 </p>
               </a>
             </div>
-            <div clasname={styles.locationBox}>
+            <div className={styles.locationBox}>
               <svg width="16px" height="16px">
                 <use xlinkHref={sprite + '#map-pin'} />
               </svg>
-              <div clasname={styles.locationText}>{location}</div>
+              <div className={styles.locationText}>{location}</div>
             </div>
           </div>
         </div>
 
-        <p clasname={styles.descriptionText}>{description}</p>
+        <p className={styles.descriptionText}>{description}</p>
 
-        <ul clasname={styles.optionsList}>
-          <li clasname={styles.optionsItem}>
+        <ul className={styles.optionsList}>
+          <li className={styles.optionsItem}>
             <svg width="20px" height="20px">
               <use xlinkHref={sprite + '#adults'} />
             </svg>
-            <p clasname={styles.optionsText}>{adults} adults</p>
+            <p className={styles.optionsText}>{adults} adults</p>
           </li>
-          <li clasname={styles.optionsItem}>
+          <li className={styles.optionsItem}>
             <svg width="20px" height="20px">
               <use xlinkHref={sprite + '#automatic'} />
             </svg>
-            <p clasname={styles.optionsText}>{transmission}</p>
+            <p className={styles.optionsText}>{transmission}</p>
           </li>
-          <li clasname={styles.optionsItem}>
+          <li className={styles.optionsItem}>
             <svg width="20px" height="20px">
               <use xlinkHref={sprite + '#patrol'} />
             </svg>
-            <p clasname={styles.optionsText}>{engine}</p>
+            <p className={styles.optionsText}>{engine}</p>
           </li>
-          <li clasname={styles.optionsItem}>
+          <li className={styles.optionsItem}>
             <svg width="20px" height="20px">
               <use xlinkHref={sprite + '#kitchen'} />
             </svg>
-            <p clasname={styles.optionsText}>Kitchen</p>
+            <p className={styles.optionsText}>Kitchen</p>
           </li>
-          <li clasname={styles.optionsItem}>
+          <li className={styles.optionsItem}>
             <svg width="20px" height="20px">
               <use xlinkHref={sprite + '#debs'} />
             </svg>
-            <p clasname={styles.optionsText}>{details.beds} beds</p>
+            <p className={styles.optionsText}>{details.beds} beds</p>
           </li>
-          <li clasname={styles.optionsItem}>
+          <li className={styles.optionsItem}>
             <PiWind size="20" />
-            <p clasname={styles.optionsText}>AC</p>
+            <p className={styles.optionsText}>AC</p>
           </li>
         </ul>
-        <button clasname={styles.showMoreBtn} onClick={openModal}>
+        <button className={styles.showMoreBtn} onClick={openModal}>
           Show more
         </button>
       </div>
