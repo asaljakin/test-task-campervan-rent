@@ -75,7 +75,7 @@
   gap: 16px;
 }
 
-.reviewsInfoBox {
+.reviewsBox {
   display: flex;
   align-items: center;
   gap: 4px;

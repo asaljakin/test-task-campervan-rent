@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useState } from 'react';
 import Modal from 'react-modal';
 import { PiWind } from 'react-icons/pi';
@@ -21,7 +20,6 @@ export const CampersCard = ({ value }) => {
     transmission,
   } = value;
 
-  // modal
   Modal.setAppElement('#root');
   const [isModalOpen, setIsModalOpen] = useState(false);
 

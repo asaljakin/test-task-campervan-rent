@@ -10,7 +10,6 @@ const catalogSlice = createSlice({
   },
   extraReducers: builder => {
     builder
-      // eslint-disable-next-line no-unused-vars
       .addCase(getAllCampers.pending, (state, _) => {
         state.isLoading = true;
       })
