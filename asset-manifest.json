@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/test-task-campervan-rent/static/css/main.4a5bde5a.css",
-    "main.js": "/test-task-campervan-rent/static/js/main.5e9b1140.js",
+    "main.js": "/test-task-campervan-rent/static/js/main.68ba07b6.js",
     "static/js/680.57c556a2.chunk.js": "/test-task-campervan-rent/static/js/680.57c556a2.chunk.js",
-    "static/css/692.0157a584.chunk.css": "/test-task-campervan-rent/static/css/692.0157a584.chunk.css",
-    "static/js/692.9283098e.chunk.js": "/test-task-campervan-rent/static/js/692.9283098e.chunk.js",
+    "static/css/692.b2494199.chunk.css": "/test-task-campervan-rent/static/css/692.b2494199.chunk.css",
+    "static/js/692.16291f94.chunk.js": "/test-task-campervan-rent/static/js/692.16291f94.chunk.js",
     "static/js/413.7cee5cb2.chunk.js": "/test-task-campervan-rent/static/js/413.7cee5cb2.chunk.js",
     "static/js/307.a14fd38b.chunk.js": "/test-task-campervan-rent/static/js/307.a14fd38b.chunk.js",
     "static/media/sprite.svg": "/test-task-campervan-rent/static/media/sprite.e378cbdb1570139a051f83a3c1f1e7a7.svg",
     "index.html": "/test-task-campervan-rent/index.html",
     "main.4a5bde5a.css.map": "/test-task-campervan-rent/static/css/main.4a5bde5a.css.map",
-    "main.5e9b1140.js.map": "/test-task-campervan-rent/static/js/main.5e9b1140.js.map",
+    "main.68ba07b6.js.map": "/test-task-campervan-rent/static/js/main.68ba07b6.js.map",
     "680.57c556a2.chunk.js.map": "/test-task-campervan-rent/static/js/680.57c556a2.chunk.js.map",
-    "692.0157a584.chunk.css.map": "/test-task-campervan-rent/static/css/692.0157a584.chunk.css.map",
-    "692.9283098e.chunk.js.map": "/test-task-campervan-rent/static/js/692.9283098e.chunk.js.map",
+    "692.b2494199.chunk.css.map": "/test-task-campervan-rent/static/css/692.b2494199.chunk.css.map",
+    "692.16291f94.chunk.js.map": "/test-task-campervan-rent/static/js/692.16291f94.chunk.js.map",
     "413.7cee5cb2.chunk.js.map": "/test-task-campervan-rent/static/js/413.7cee5cb2.chunk.js.map",
     "307.a14fd38b.chunk.js.map": "/test-task-campervan-rent/static/js/307.a14fd38b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a5bde5a.css",
-    "static/js/main.5e9b1140.js"
+    "static/js/main.68ba07b6.js"
   ]
 }
