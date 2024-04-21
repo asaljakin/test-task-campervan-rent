@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { getAllCampers } from '../../../redux/operations';
+import { getCampers } from '../../../api/mockApi';
 import { PiWind } from 'react-icons/pi';
 import sprite from '../../../assets/sprite.svg';
 import { useEffect, useState } from 'react';
@@ -8,9 +8,9 @@ import styles from './Filters.module.css';
 export const Filters = () => {
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(getAllCampers());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(getCampers(1));
+  // }, [dispatch]);
 
   const [isChecked, setIsChecked] = useState(false);
 
