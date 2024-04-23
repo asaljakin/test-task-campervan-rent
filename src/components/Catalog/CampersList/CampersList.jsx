@@ -11,11 +11,11 @@ import styles from './CampersList.module.css';
 import { useEffect } from 'react';
 import { getCampersThunk, setPage } from '../../../redux/thunks';
 
-export const CampersList = () => {
+export const CampersList = ({ campers, isNotFavirite = true }) => {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectIsLoading);
   // const totalCampers = useSelector(selectTotal);
-  const curCampers = useSelector(selectCampers);
+  // const curCampers = useSelector(selectCampers);
   const curPage = useSelector(selectPage);
   // const items = useSelector(selectPage);
   // const lastElement = currentPage < Math.ceil(totalCampers / 4);
@@ -33,13 +33,15 @@ export const CampersList = () => {
     <div className={styles.wrapper}>
       {isLoading && <Loader />}
       <ul>
-        {curCampers.map(item => (
+        {campers.map(item => (
           <CampersCard key={item._id} card={item} />
         ))}
       </ul>
-      <button className={styles.btnLoadMore} onClick={handleLoadMore}>
-        <p className={styles.btnText}>Load More</p>
-      </button>
+      {isNotFavirite && (
+        <button className={styles.btnLoadMore} onClick={handleLoadMore}>
+          <p className={styles.btnText}>Load More</p>
+        </button>
+      )}
     </div>
   );
 };

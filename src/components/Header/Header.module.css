@@ -26,3 +26,8 @@
   display: flex;
   gap: 16px;
 }
+
+.navLink:global.active {
+  border-bottom: 1px solid var(--red);
+  color: var(--red);
+}
