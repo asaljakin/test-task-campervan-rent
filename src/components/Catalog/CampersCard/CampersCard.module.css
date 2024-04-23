@@ -59,12 +59,17 @@
   background: none;
 }
 
-.heartSvg {
+.heart {
   fill: #fff;
   stroke: #101828;
 }
 
 .heartSvg:hover {
+  fill: var(--red);
+  stroke: var(--red);
+}
+
+.heartActive {
   fill: var(--red);
   stroke: var(--red);
 }

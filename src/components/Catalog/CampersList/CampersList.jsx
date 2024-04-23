@@ -7,40 +7,39 @@ import {
 } from '../../../redux/selectors';
 import { CampersCard } from '../CampersCard/CampersCard';
 import { Loader } from '../../Loader/Loader';
-import { setPage } from '../../../redux/catalogSlice';
 import styles from './CampersList.module.css';
 import { useEffect } from 'react';
-import { getCampers } from '../../../api/mockApi';
+import { getCampersThunk, setPage } from '../../../redux/thunks';
 
-export const CampersList = ({ catalog }) => {
+export const CampersList = () => {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectIsLoading);
   // const totalCampers = useSelector(selectTotal);
   const curCampers = useSelector(selectCampers);
-  const currentPage = useSelector(selectPage);
+  const curPage = useSelector(selectPage);
+  // const items = useSelector(selectPage);
   // const lastElement = currentPage < Math.ceil(totalCampers / 4);
   // const onLastElementFetching = curCampers.length >= totalCampers;
+
   useEffect(() => {
-    dispatch(getCampers({ currentPage }));
-  }, [dispatch, currentPage]);
+    dispatch(getCampersThunk(curPage));
+  }, [dispatch, curPage]);
 
   const handleLoadMore = () => {
     dispatch(setPage(1));
   };
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       {isLoading && <Loader />}
       <ul>
-        {{ catalog }.map(item => (
-          <CampersCard key={item._id} value={item} />
+        {curCampers.map(item => (
+          <CampersCard key={item._id} card={item} />
         ))}
       </ul>
-      {/* {lastElement && !isLoading && ( */}
       <button className={styles.btnLoadMore} onClick={handleLoadMore}>
         <p className={styles.btnText}>Load More</p>
       </button>
-      {/* )} */}
     </div>
   );
 };

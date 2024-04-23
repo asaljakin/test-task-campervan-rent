@@ -4,8 +4,11 @@ import { PiWind } from 'react-icons/pi';
 import sprite from '../../../assets/sprite.svg';
 import CardModal from '../CardModal/CardModal';
 import styles from './CampersCard.module.css';
+import { useDispatch, useSelector } from 'react-redux';
+import { selectFavorite } from '../../../redux/selectors';
+import { changeFavorite } from '../../../redux/thunks';
 
-export const CampersCard = ({ value }) => {
+export const CampersCard = ({ card }) => {
   const {
     name,
     gallery,
@@ -18,7 +21,15 @@ export const CampersCard = ({ value }) => {
     details,
     engine,
     transmission,
-  } = value;
+  } = card;
+
+  const dispatch = useDispatch();
+
+  const favorite = useSelector(selectFavorite);
+
+  const handleFavorite = card => {
+    dispatch(changeFavorite(card));
+  };
 
   Modal.setAppElement('#root');
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -42,8 +53,19 @@ export const CampersCard = ({ value }) => {
             <h2 className={styles.cardTitle}>{name}</h2>
             <div className={styles.priceBox}>
               <p className={styles.cardPrice}>€{price}.00</p>
-              <button className={styles.heartBtn}>
-                <svg className={styles.heartSvg} width="24px" height="24px">
+              <button
+                className={styles.heartBtn}
+                onClick={() => handleFavorite(card)}
+              >
+                <svg
+                  className={
+                    favorite.some(item => item._id === card._id)
+                      ? styles.heartActive
+                      : styles.heart
+                  }
+                  width="24px"
+                  height="24px"
+                >
                   <use xlinkHref={sprite + '#heart'} />
                 </svg>
               </button>
@@ -144,7 +166,7 @@ export const CampersCard = ({ value }) => {
           },
         }}
       >
-        <CardModal closeModal={closeModal} value={value} />
+        <CardModal closeModal={closeModal} value={card} />
       </Modal>
     </div>
   );
