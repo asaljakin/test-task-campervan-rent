@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerBox}>
-        <Link to="/">CampersRental</Link>
+        <Link to="/">CamperVanRent</Link>
         <nav className={styles.navList}>
           <NavLink to="/" className={styles.navLink}>
             Home

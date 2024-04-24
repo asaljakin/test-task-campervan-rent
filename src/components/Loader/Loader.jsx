@@ -1,17 +1,20 @@
-import { ColorRing } from 'react-loader-spinner';
+import { ThreeCircles } from 'react-loader-spinner';
 import styles from './Loader.module.css';
 
 export const Loader = () => {
   return (
     <div className={styles.fullScreenLoader}>
-      <ColorRing
+      <ThreeCircles
         visible={true}
-        height="80"
-        width="80"
-        ariaLabel="color-ring-loading"
+        height="70"
+        width="70"
+        innerCircleColor="#ffc531"
+        middleCircleColor="#e44848"
+        outerCircleColor="#101828"
+        ariaLabel="three-circles-loading"
         wrapperStyle={{}}
-        wrapperClass="color-ring-wrapper"
-        colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+        wrapperClass=""
+        className={styles.spiner}
       />
     </div>
   );

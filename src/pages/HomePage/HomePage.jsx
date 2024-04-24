@@ -1,10 +1,9 @@
-// import { Wellcome } from "../../components/Wellcome/Wellcome";
+import { Home } from 'components/Home/Home';
 
 const HomePage = () => {
   return (
     <div>
-      <h1>Home Page</h1>
-      {/* <Wellcome /> */}
+      <Home />
     </div>
   );
 };

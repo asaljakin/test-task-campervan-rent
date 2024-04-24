@@ -1,0 +1,77 @@
+.fullscreenImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/fone.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around; */
+  height: 100vh;
+}
+
+.row {
+  margin-top: 128px;
+  width: 800px;
+}
+
+.column {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 70px;
+  text-shadow: 6px 5px 8px rgba(0, 0, 0, 1.4);
+  color: var(--yellow);
+  margin-bottom: 25rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 60px;
+  text-shadow: 6px 5px 8px rgba(0, 0, 0, 1.4);
+  color: var(--blue);
+}
+
+.button {
+  background-color: var(--yellow);
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border: 0 solid var(--yellow);
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Basier circle', -apple-system, system-ui, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-decoration: none;
+  box-shadow: 6px 10px 16px rgba(166, 175, 195, 0.25);
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+  background-color: var(--hover-btn);
+  color: var(--white);
+}
+
+.wrapper {
+  margin-top: 360px;
+}

@@ -9,6 +9,7 @@
   height: 84px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   background-color: var(--light-grey);
+  color: var(--blue);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,5 +30,9 @@
 
 .navLink:global.active {
   border-bottom: 1px solid var(--red);
+  color: var(--red);
+}
+
+.navLink:hover {
   color: var(--red);
 }

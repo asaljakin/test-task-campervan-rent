@@ -12,12 +12,7 @@ export const getCampers = async curPage => {
   return data.data;
 };
 
-// export const getAllCampers = async () => {
-//     try {
-//       const { data } = await axios.get('/adverts');
-//       return data.length;
-//     } catch (error) {
-//       return thunkAPI.rejectWithValue(error.message);
-//     }
-//   }
-// );
+export const getAllCampers = async () => {
+  const { data } = await axios.get('/adverts');
+  return data.length;
+};
