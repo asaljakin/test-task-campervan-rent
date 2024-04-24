@@ -9,7 +9,7 @@
   height: 84px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
   background-color: var(--light-grey);
-  color: var(--blue);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,21 @@
 
 .navList {
   display: flex;
-  gap: 16px;
+  gap: 20px;
+}
+
+.logo {
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: 800;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.navLink {
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
 }
 
 .navLink:global.active {

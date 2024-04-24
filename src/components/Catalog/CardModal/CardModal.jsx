@@ -9,15 +9,13 @@ const CardModal = ({ closeModal, value }) => {
   const { name, rating, reviews, location, price, gallery, description } =
     value;
 
-  const [showFeatures, setShowFeatures] = useState(false);
+  const [showFeatures, setShowFeatures] = useState(true);
   const [showReviews, setShowReviews] = useState(false);
-  const [showOrderForm, setShowOrderForm] = useState(false);
-  const [showRedLine, setShowRedLine] = useState(false);
-  const [clickedButton, setClickedButton] = useState(null);
+  const [showOrderForm, setShowOrderForm] = useState(true);
+  const [clickedButton, setClickedButton] = useState('Features');
 
   const handleFeaturesClick = () => {
     setShowOrderForm(true);
-    setShowRedLine(true);
     setShowFeatures(true);
     setShowReviews(false);
     setClickedButton('Features');
@@ -25,7 +23,6 @@ const CardModal = ({ closeModal, value }) => {
 
   const handleReviewsClick = () => {
     setShowOrderForm(true);
-    setShowRedLine(true);
     setShowReviews(true);
     setShowFeatures(false);
     setClickedButton('Reviews');
@@ -80,7 +77,7 @@ const CardModal = ({ closeModal, value }) => {
               >
                 Features
               </button>
-              {clickedButton === 'Features' && showRedLine && (
+              {clickedButton === 'Features' && (
                 <hr className={styles.redLine} />
               )}
             </li>
@@ -91,9 +88,7 @@ const CardModal = ({ closeModal, value }) => {
               >
                 Reviews
               </button>
-              {clickedButton === 'Reviews' && showRedLine && (
-                <hr className={styles.redLine} />
-              )}
+              {clickedButton === 'Reviews' && <hr className={styles.redLine} />}
             </li>
           </ul>
           <hr className={styles.horizontalLine} />

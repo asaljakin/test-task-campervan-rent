@@ -13,14 +13,13 @@
 
 .container {
   display: flex;
-  justify-content: center;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   height: 100vh;
 }
 
 .row {
-  margin-top: 128px;
-  width: 800px;
+  margin-top: 5vh;
+  width: 730px;
 }
 
 .column {
@@ -46,24 +45,23 @@
 
 .button {
   background-color: var(--yellow);
-  width: 150px;
-  height: 50px;
+  width: 160px;
+  height: 52px;
   text-align: center;
-  border: 0 solid var(--yellow);
   border-radius: 1.5rem;
   box-sizing: border-box;
-  color: #0d172a;
+  color: var(--blue);
   cursor: pointer;
   display: inline-block;
   font-family: 'Basier circle', -apple-system, system-ui, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 800;
   line-height: 1;
   padding: 1rem 1.6rem;
   text-decoration: none;
-  box-shadow: 6px 10px 16px rgba(166, 175, 195, 0.25);
+  box-shadow: 6px 10px 12px rgba(0, 0, 0, 0.61);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
