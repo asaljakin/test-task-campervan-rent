@@ -11,18 +11,15 @@ const CardModal = ({ closeModal, value }) => {
 
   const [showFeatures, setShowFeatures] = useState(true);
   const [showReviews, setShowReviews] = useState(false);
-  const [showOrderForm, setShowOrderForm] = useState(true);
   const [clickedButton, setClickedButton] = useState('Features');
 
   const handleFeaturesClick = () => {
-    setShowOrderForm(true);
     setShowFeatures(true);
     setShowReviews(false);
     setClickedButton('Features');
   };
 
   const handleReviewsClick = () => {
-    setShowOrderForm(true);
     setShowReviews(true);
     setShowFeatures(false);
     setClickedButton('Reviews');
@@ -95,7 +92,7 @@ const CardModal = ({ closeModal, value }) => {
           <div className={styles.informBox}>
             {showFeatures && <Features value={value} />}
             {showReviews && <Reviews value={value} />}
-            {showOrderForm && <OrderForm />}
+            <OrderForm />
           </div>
         </div>
       </div>
