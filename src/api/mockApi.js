@@ -8,7 +8,7 @@ export const getCampers = async curPage => {
     limit: 4,
   };
   const data = await axios.get('/adverts', { params: axiosParams });
-  console.log('data ', data);
+
   return data.data;
 };
 

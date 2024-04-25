@@ -23,7 +23,6 @@ const campersSlice = createSlice({
   },
   reducers: {
     setPage(state, action) {
-      console.log('action.payload ', action.payload);
       state.curPage += action.payload;
     },
     changeFavorite(state, action) {
@@ -38,7 +37,6 @@ const campersSlice = createSlice({
         return;
       }
       state.favorites.push({ ...action.payload });
-      console.log('state', state.favorites);
     },
     bookCamper: (state, { payload }) => {
       state.bookings.push(payload);

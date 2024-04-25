@@ -15,7 +15,7 @@ export const Features = ({ value }) => {
     tank,
     consumption,
   } = value;
-  console.log(value);
+
   return (
     <div className={styles.featuresContainer}>
       <ul className={styles.optionsList}>

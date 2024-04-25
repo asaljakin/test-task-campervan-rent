@@ -7,16 +7,11 @@ export const Home = () => {
     <>
       <div className={styles.fullscreenImage}></div>
       <div className={styles.container}>
-        <div className={styles.row}>
-          <div className={styles.column}>
-            <h1 className={styles.title}>
-              Embrace the Journey, Enjoy the Ride!
-              <br />
-              <span className={styles.subtitle}>Camper van rent</span>
-            </h1>
-          </div>
+        <div className={styles.columnTitle}>
+          <h1 className={styles.title}>Embrace the Journey, Enjoy the Ride!</h1>
+          <span className={styles.subtitle}>Camper van rent</span>
         </div>
-        <div className={styles.wrapper}>
+        <div className={styles.columnBtn}>
           <Link to="/catalog" className={styles.button}>
             <span>Let's Go</span>
           </Link>
