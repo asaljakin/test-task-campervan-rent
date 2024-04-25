@@ -1,11 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { ThreeCircles } from 'react-loader-spinner';
-import {
-  selectCampers,
-  selectIsLoading,
-  selectPage,
-  selectTotal,
-} from '../../../redux/selectors';
+import { selectIsLoading, selectPage } from '../../../redux/selectors';
 import { CampersCard } from '../CampersCard/CampersCard';
 import { Loader } from '../../Loader/Loader';
 import styles from './CampersList.module.css';
@@ -15,12 +9,7 @@ import { getCampersThunk, setPage } from '../../../redux/thunks';
 export const CampersList = ({ campers, isNotFavirite = true }) => {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectIsLoading);
-  // const totalCampers = useSelector(selectTotal);
-  // const curCampers = useSelector(selectCampers);
   const curPage = useSelector(selectPage);
-  // const items = useSelector(selectPage);
-  // const lastElement = currentPage < Math.ceil(totalCampers / 4);
-  // const onLastElementFetching = curCampers.length >= totalCampers;
 
   useEffect(() => {
     dispatch(getCampersThunk(curPage));
