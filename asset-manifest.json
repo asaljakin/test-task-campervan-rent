@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/test-task-campervan-rent/static/css/main.4a5bde5a.css",
-    "main.js": "/test-task-campervan-rent/static/js/main.68ba07b6.js",
-    "static/js/680.57c556a2.chunk.js": "/test-task-campervan-rent/static/js/680.57c556a2.chunk.js",
-    "static/css/692.b2494199.chunk.css": "/test-task-campervan-rent/static/css/692.b2494199.chunk.css",
-    "static/js/692.16291f94.chunk.js": "/test-task-campervan-rent/static/js/692.16291f94.chunk.js",
-    "static/js/413.7cee5cb2.chunk.js": "/test-task-campervan-rent/static/js/413.7cee5cb2.chunk.js",
-    "static/js/307.a14fd38b.chunk.js": "/test-task-campervan-rent/static/js/307.a14fd38b.chunk.js",
+    "main.css": "/test-task-campervan-rent/static/css/main.42bb73d6.css",
+    "main.js": "/test-task-campervan-rent/static/js/main.5e8183cc.js",
+    "static/css/660.303a8b97.chunk.css": "/test-task-campervan-rent/static/css/660.303a8b97.chunk.css",
+    "static/js/660.181176ef.chunk.js": "/test-task-campervan-rent/static/js/660.181176ef.chunk.js",
+    "static/css/455.40afcc73.chunk.css": "/test-task-campervan-rent/static/css/455.40afcc73.chunk.css",
+    "static/js/455.08bfb2bd.chunk.js": "/test-task-campervan-rent/static/js/455.08bfb2bd.chunk.js",
+    "static/css/606.1dea5c16.chunk.css": "/test-task-campervan-rent/static/css/606.1dea5c16.chunk.css",
+    "static/js/606.0abae8c2.chunk.js": "/test-task-campervan-rent/static/js/606.0abae8c2.chunk.js",
+    "static/js/145.73268335.chunk.js": "/test-task-campervan-rent/static/js/145.73268335.chunk.js",
+    "static/js/967.4fbff560.chunk.js": "/test-task-campervan-rent/static/js/967.4fbff560.chunk.js",
+    "static/media/fone.webp": "/test-task-campervan-rent/static/media/fone.d336f3f994a24181d737.webp",
     "static/media/sprite.svg": "/test-task-campervan-rent/static/media/sprite.e378cbdb1570139a051f83a3c1f1e7a7.svg",
     "index.html": "/test-task-campervan-rent/index.html",
-    "main.4a5bde5a.css.map": "/test-task-campervan-rent/static/css/main.4a5bde5a.css.map",
-    "main.68ba07b6.js.map": "/test-task-campervan-rent/static/js/main.68ba07b6.js.map",
-    "680.57c556a2.chunk.js.map": "/test-task-campervan-rent/static/js/680.57c556a2.chunk.js.map",
-    "692.b2494199.chunk.css.map": "/test-task-campervan-rent/static/css/692.b2494199.chunk.css.map",
-    "692.16291f94.chunk.js.map": "/test-task-campervan-rent/static/js/692.16291f94.chunk.js.map",
-    "413.7cee5cb2.chunk.js.map": "/test-task-campervan-rent/static/js/413.7cee5cb2.chunk.js.map",
-    "307.a14fd38b.chunk.js.map": "/test-task-campervan-rent/static/js/307.a14fd38b.chunk.js.map"
+    "main.42bb73d6.css.map": "/test-task-campervan-rent/static/css/main.42bb73d6.css.map",
+    "main.5e8183cc.js.map": "/test-task-campervan-rent/static/js/main.5e8183cc.js.map",
+    "660.303a8b97.chunk.css.map": "/test-task-campervan-rent/static/css/660.303a8b97.chunk.css.map",
+    "660.181176ef.chunk.js.map": "/test-task-campervan-rent/static/js/660.181176ef.chunk.js.map",
+    "455.40afcc73.chunk.css.map": "/test-task-campervan-rent/static/css/455.40afcc73.chunk.css.map",
+    "455.08bfb2bd.chunk.js.map": "/test-task-campervan-rent/static/js/455.08bfb2bd.chunk.js.map",
+    "606.1dea5c16.chunk.css.map": "/test-task-campervan-rent/static/css/606.1dea5c16.chunk.css.map",
+    "606.0abae8c2.chunk.js.map": "/test-task-campervan-rent/static/js/606.0abae8c2.chunk.js.map",
+    "145.73268335.chunk.js.map": "/test-task-campervan-rent/static/js/145.73268335.chunk.js.map",
+    "967.4fbff560.chunk.js.map": "/test-task-campervan-rent/static/js/967.4fbff560.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a5bde5a.css",
-    "static/js/main.68ba07b6.js"
+    "static/css/main.42bb73d6.css",
+    "static/js/main.5e8183cc.js"
   ]
 }
